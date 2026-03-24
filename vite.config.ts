@@ -25,7 +25,7 @@ export default defineConfig(({ mode }) => ({
         background_color: "#0f1419",
         display: "standalone",
         orientation: "any",
-        start_url: "/",
+        start_url: "/retail-rocket/",
         icons: [
           { src: "/pwa-192x192.png", sizes: "192x192", type: "image/png" },
           { src: "/pwa-512x512.png", sizes: "512x512", type: "image/png" },
