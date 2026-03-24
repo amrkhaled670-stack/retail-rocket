@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { getStats } from "@/lib/store";
 import { DollarSign, TrendingUp, AlertTriangle, ShoppingCart } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+import DailyReport from "@/components/DailyReport";
 
 export default function Dashboard() {
   const stats = useMemo(() => getStats(), []);
