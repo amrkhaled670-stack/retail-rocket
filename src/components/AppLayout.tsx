@@ -31,7 +31,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
             </div>
             <div>
               <h1 className="font-bold text-base tracking-tight">SwiftPOS</h1>
-              <p className="text-xs text-muted-foreground">Inventory & Sales</p>
+              <p className="text-xs text-muted-foreground">Advanced Inventory System</p>
             </div>
           </div>
           <nav className="flex-1 px-3 space-y-1">

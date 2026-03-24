@@ -18,9 +18,9 @@ export default defineConfig(({ mode }) => ({
       registerType: "autoUpdate",
       includeAssets: ["placeholder.svg"],
       manifest: {
-        name: "SwiftPOS - Inventory & Sales",
+        name: "SwiftPOS: Advanced Inventory System",
         short_name: "SwiftPOS",
-        description: "Professional inventory and sales management for small businesses",
+        description: "SwiftPOS: Advanced Inventory System - Professional inventory and sales management for small businesses",
         theme_color: "#0f1419",
         background_color: "#0f1419",
         display: "standalone",
