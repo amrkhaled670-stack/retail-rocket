@@ -15,7 +15,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/retail-rocket">
         <AppLayout>
           <Routes>
             <Route path="/" element={<Dashboard />} />

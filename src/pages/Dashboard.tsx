@@ -67,6 +67,9 @@ export default function Dashboard() {
         </div>
       </div>
 
+      {/* Daily Sales Report */}
+      <DailyReport />
+
       {/* Low Stock Alerts */}
       {stats.lowStock.length > 0 && (
         <div className="glass-card rounded-xl p-5">
